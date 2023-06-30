@@ -1,6 +1,11 @@
 import Foundation
 import CoreGraphics
 
+/**
+ A struct that encapsulates a render task.
+ 
+ This struct provides an `Identifiable` and `Equatable` protocols conforming.
+ */
 public struct RenderTask<Context>: Identifiable, Equatable {
     
     public let id = UUID()

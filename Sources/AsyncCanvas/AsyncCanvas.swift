@@ -1,5 +1,8 @@
 import SwiftUI
 
+/**
+ A Canvas view for asynchronous rendering 2D images.
+ */
 public struct AsyncCanvas<Processor: RenderProcessor>: View {
     
     typealias ProcessorTask = RenderTask<Processor.Context>

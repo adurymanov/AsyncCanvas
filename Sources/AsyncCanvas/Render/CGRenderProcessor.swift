@@ -2,6 +2,11 @@ import CoreGraphics
 import SwiftUI
 import UIKit
 
+/**
+ An actor implements a `CoreGraphics` processor for image rendering.
+ 
+ Processor use CPU calculations for asynchronous rendering result image within `CGContext`.
+ */
 public final actor CGRenderProcessor: RenderProcessor {
     
     public typealias Context = CGContext
